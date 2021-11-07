@@ -1,0 +1,11 @@
+framework module LocatorDeviceManager {
+  umbrella header "LocatorDeviceManager.h"
+
+  export *
+  module * { export * }
+}
+
+module LocatorDeviceManager.Swift {
+    header "LocatorDeviceManager-Swift.h"
+    requires objc
+}
